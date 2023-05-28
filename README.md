@@ -1,21 +1,59 @@
-# Desenvolva um sistema de gerenciamento de contatos. 
-Você deve criar um programa que permita ao usuário armazenar informações
-de contatos, como nome, telefone, e-mail e endereço, e realizar
-operações como adicionar, atualizar, pesquisar e excluir contatos.
-Aqui estão algumas funcionalidades que você pode incluir no
-projeto:
+## Agenda Telefónica
 
-1 - *Adicionar um novo contato*: Permita ao usuário inserir os detalhes
-de um novo contato e adicionar à lista de contatos.
-2 - *Atualizar um contato*: Permita ao usuário selecionar um contato
-existente da lista e atualizar as informações, como número de
-telefone, e-mail ou endereço.
-3 - *Pesquisar um contato*: Permita ao usuário pesquisar um contato
-pelo nome e exibir as informações relacionadas a esse contato.
-4 - *Excluir um contato*: Permita ao usuário selecionar um contato da
-lista e excluí-lo permanentemente.
-5 - *Listar todos os contatos*: Exiba todos os contatos armazenados,
-mostrando seus nomes e outras informações básicas.
-Salvar contatos em um dicionário: Armazene os contatos usando um
-dicionário, onde o nome do contato é a chave e as informações
-são os valores associados.
+Este repositório contém um programa de Agenda Telefónica desenvolvido em Python utilizando a biblioteca Tkinter. O programa permite adicionar, atualizar, remover, visualizar e pesquisar contatos telefônicos. Os dados são armazenados em um arquivo CSV.
+
+### Requisitos
+
+Certifique-se de ter o Python instalado no seu sistema. O programa foi desenvolvido utilizando o Python 3.
+
+### Instalação
+
+1. Clone este repositório em sua máquina local:
+
+   ```
+   git clone https://github.com/Erick-Bryan-Cubas/Desafio-de-Projeto---Sistema-de-Gerenciamento-de-Contatos.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```
+   cd nome-do-repositorio
+   ```
+
+3. Execute o arquivo principal `agenda_telefonica.py`:
+
+   ```
+   python agenda_telefonica.py
+   ```
+
+### Funcionalidades
+
+O programa oferece as seguintes funcionalidades:
+
+- Adicionar um novo contato à agenda telefônica;
+- Atualizar informações de um contato existente;
+- Remover um contato da agenda telefônica;
+- Visualizar todos os contatos da agenda telefônica;
+- Pesquisar contatos pelo número de telefone.
+
+### Funcionamento
+
+O programa utiliza a biblioteca Tkinter para criar a interface gráfica. A janela principal é composta por três frames: `frame_cima`, `frame_baixo` e `frame_tabela`.
+
+- `frame_cima`: Contém o título da agenda telefônica e uma linha decorativa.
+- `frame_baixo`: Permite adicionar, atualizar, remover e pesquisar contatos.
+- `frame_tabela`: Exibe os contatos em forma de tabela.
+
+O programa também faz uso de um arquivo CSV para armazenar os dados da agenda telefônica. As operações de adicionar, atualizar, remover e pesquisar são realizadas nesse arquivo.
+
+### Estrutura do Código
+
+O código do programa está organizado em diferentes seções:
+
+- Importação das bibliotecas necessárias;
+- Definição das cores utilizadas na interface;
+- Criação da janela principal;
+- Definição dos frames;
+- Configuração dos elementos da interface dentro dos frames;
+- Definição das funções para realizar as operações na agenda telefônica;
+- Execução da janela principal.
