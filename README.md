@@ -57,3 +57,13 @@ O código do programa está organizado em diferentes seções:
 - Configuração dos elementos da interface dentro dos frames;
 - Definição das funções para realizar as operações na agenda telefônica;
 - Execução da janela principal.
+
+# Como Contribuir
+- Faça um fork do repositório.
+- Crie uma branch com as suas alterações.
+- Faça um pull request para a branch principal.
+- Agradeço a sua contribuição para este projeto!
+
+## Créditos
+
+Essa implementação da agenda telefônica foi instruída pelo professor Joao Futi Muanda.
