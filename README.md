@@ -1,4 +1,4 @@
-## Agenda Telefónica
+# Agenda Telefónica
 
 Este repositório contém um programa de Agenda Telefónica desenvolvido em Python utilizando a biblioteca Tkinter. O programa permite adicionar, atualizar, remover, visualizar e pesquisar contatos telefônicos. Os dados são armazenados em um arquivo CSV.
 
@@ -58,12 +58,12 @@ O código do programa está organizado em diferentes seções:
 - Definição das funções para realizar as operações na agenda telefônica;
 - Execução da janela principal.
 
-# Como Contribuir
+### Como Contribuir
 - Faça um fork do repositório.
 - Crie uma branch com as suas alterações.
 - Faça um pull request para a branch principal.
 - Agradeço a sua contribuição para este projeto!
 
-## Créditos
+### Créditos
 
 Essa implementação da agenda telefônica foi instruída pelo professor Joao Futi Muanda.
